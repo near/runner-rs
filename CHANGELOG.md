@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.17.0](https://github.com/near/near-workspaces-rs/compare/near-workspaces-v0.16.0...near-workspaces-v0.17.0) - 2024-12-26
+
+### Added
+
+- [**breaking**] `worker.dev_create_account`, `worker.dev_deploy` create subaccounts of root account instead of tla (sandbox, testnet) (#369)
+
 ## [0.16.0](https://github.com/near/near-workspaces-rs/compare/near-workspaces-v0.15.0...near-workspaces-v0.16.0) - 2024-12-18
 
 ### Fixed
