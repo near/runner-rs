@@ -433,7 +433,7 @@ pub struct ExecutionOutcome {
     /// for receipt this is receiver_id.
     pub executor_id: AccountId,
     /// Execution status. Contains the result in case of successful execution.
-    pub(crate) status: ExecutionStatusView,
+    pub status: ExecutionStatusView,
 }
 
 impl ExecutionOutcome {
